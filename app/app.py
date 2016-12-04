@@ -4,7 +4,7 @@ WHERE = __file__ + ' in Blocks service'
 
 image = 0
 
-bls = blimg.blimage.find_blocks(image)
+bls = blimg.find_blocks(image)
 
 if __name__ == "__main__":
     print(WHERE)
