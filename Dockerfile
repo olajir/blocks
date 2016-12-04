@@ -1,4 +1,4 @@
-FROM olajir/projbase:latest
+FROM olajir/projbase1:latest
 
 WORKDIR /tmp
 COPY . /tmp
